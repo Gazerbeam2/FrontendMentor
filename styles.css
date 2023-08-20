@@ -1,0 +1,21 @@
+body{
+    width:1440px;
+    background-color: #d5e1ef;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    border: 28px solid white;
+    width:50%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+p{
+    font-family: 'Outfit', sans-serif;
+}
