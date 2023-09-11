@@ -1,3 +1,5 @@
+/*Figure out how to use font-weights with the font-family property*/
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -65,7 +67,7 @@ section{
     width:100%;
     background-color: white;
     border-radius: 20px;
-    max-width: 322px;
+    max-width: 375px;
     margin: 0 auto;
     padding:10px;
 }
@@ -81,7 +83,7 @@ p{
     color:gray;
     text-align: center;
     padding:10px;
-    font-size:18px;
+    font-size:15px;
 
 }
 
