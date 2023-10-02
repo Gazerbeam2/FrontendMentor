@@ -71,9 +71,6 @@ textarea:not([rows]) {
   scroll-margin-block: 5ex;
 }
 
-*{
-    box-sizing: border-box;
-}
 
 body{
     background-color: #d5e1ef;
