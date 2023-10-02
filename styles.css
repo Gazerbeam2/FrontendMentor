@@ -76,7 +76,7 @@ body{
 section{
     border: 10px solid white;
     width:75%;
-    max-width:375px;
+    max-width:285px;
     background-color: white;
     border-radius: 20px;
     padding:10px;
@@ -84,7 +84,7 @@ section{
 
 img{
     border-radius:18px;
-    max-width:375px;
+    max-inline-size: 100%;
 }
 
 p{
