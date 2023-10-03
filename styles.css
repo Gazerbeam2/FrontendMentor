@@ -80,19 +80,18 @@ body{
     justify-content: center;
     align-items: center;
 }
-.container{
-    width:100%;
-    margin: 0 auto;
-    display:flex;
-}
 
 main{
-    border: 10px solid white;
-    width:75%;
-    max-width:341px;
-    background-color: white;
-    border-radius: 20px;
-    padding:10px;
+
+    max-width: 22rem;
+    padding:16px;
+
+}
+
+.container{
+  border: 10px solid white;
+  background-color: white;
+  border-radius: 20px;
 }
 
 img{
@@ -107,6 +106,7 @@ p{
     padding:10px;
     font-size:1rem;
     font-weight:400;
+    margin:10px auto;
 
 }
 
@@ -119,4 +119,3 @@ h1, .attribution{
 }
 
 /*Border-radius is might what rounds the corners
-set the image width to 100%*/
