@@ -81,12 +81,12 @@ body{
 }
 main{
 display:flex;
-max-width: 60%;
+max-width: 70%;
 
 }
 .sedanSection,.suvSection,.luxurySection{
     color:white;
-    padding:5.3em;
+    padding:8.3em;
 
 }
 
@@ -105,14 +105,21 @@ max-width: 60%;
 }
 
 button{
-    border-radius: 22px;
+    border-radius: 30px;
+    background: white;
+
+
 }
 
 h2{
     font-family: 'Big Shoulders Display', sans-serif;
     text-transform: uppercase;
+    font-weight:700;
+    font-size: 2rem;
 }
 
 p{
     font-family: 'Lexend Deca', sans-serif;
-}
+    font-weight:400;
+
+  }
