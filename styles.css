@@ -75,16 +75,18 @@ textarea:not([rows]) {
 body{
     background-color: #d5e1ef;
     font-size:16px;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+
 }
 
 main{
     max-width: 22rem;
     padding:16px;
-
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0 auto;
 }
 
 .container{
@@ -122,6 +124,7 @@ h1{
 
 .attribution{
   font-size:1.1rem;
+  margin:0 auto;
 
 }
 
