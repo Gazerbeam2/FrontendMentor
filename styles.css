@@ -70,3 +70,14 @@ textarea:not([rows]) {
 :target {
   scroll-margin-block: 5ex;
 }
+
+body{
+
+}
+
+main{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
