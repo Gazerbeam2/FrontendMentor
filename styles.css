@@ -71,9 +71,15 @@ textarea:not([rows]) {
   scroll-margin-block: 5ex;
 }
 
+/* Reset Ends Here */
 
 body{
     background-color: #d5e1ef;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+
 }
 
 main{
@@ -120,7 +126,7 @@ h2{
 }
 
 
-.attribution{
+footer{
   font-size:1.1rem;
   margin:0 auto;
 
