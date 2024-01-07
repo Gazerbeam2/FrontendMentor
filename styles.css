@@ -87,26 +87,27 @@ body{
     align-items: center;
     flex-direction: row-reverse;
     max-width: 30rem;
-    border: 0.3px solid black;
+    border: 9px solid white;
     border-radius: 10px;
     margin: 0 auto;
 }
 
 .component_text_side{
   background-color: hsl(0, 0%, 100%);
-  padding:1.7em;
+  padding:1.2em;
   margin: 0;
 }
 .component_ribbon_text{
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 5px;
+  font-size: 0.7rem;
 }
 
 
 h2{
   color: hsl(212, 21%, 14%);
-  font-size: 2.2rem;
+  font-size: 1.8rem;
   font-family: 'Fraunces', serif;;
 }
 
@@ -136,6 +137,6 @@ button{
 }
 
 
-picture{
-  object-fit: cover;
+img{
+  object-fit: contain;
 }
