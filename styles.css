@@ -72,24 +72,70 @@ textarea:not([rows]) {
 }
 
 body{
-
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(30, 38%, 92%);
 }
 
-main{
+
+
+.component_container{
     display:flex;
     justify-content: center;
     align-items: center;
     flex-direction: row-reverse;
-    max-width: 25rem;
-    border: 1px solid black;
+    max-width: 30rem;
+    border: 0.3px solid black;
     border-radius: 10px;
+    margin: 0 auto;
 }
 
-img{
-  object-fit: fill;
+.component_text_side{
+  background-color: hsl(0, 0%, 100%);
+  padding:1.7em;
+  margin: 0;
+}
+.component_ribbon_text{
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 5px;
 }
 
-.attribution{
-  align-self: flex-end;
+
+h2{
+  color: hsl(212, 21%, 14%);
+  font-size: 2.2rem;
+  font-family: 'Fraunces', serif;;
+}
+
+
+p{
+  color: hsl(228, 12%, 48%)
+}
+
+.component_prices_span{
+  color: hsl(158, 36%, 37%);
+  font-size: 1.5rem;
+  font-family: 'Fraunces', serif;
+  margin:0.5em;
+
+}
+button{
+  background-color:  hsl(158, 36%, 37%);
+  color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  display:block;
+  padding: 0.5em 4em 0.5em 4em;
+}
+
+.shopping_Cart_Icon{
+  display:inline;
+
+}
+
+
+picture{
+  object-fit: cover;
 }
