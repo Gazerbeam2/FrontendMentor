@@ -77,9 +77,6 @@ body{
     background-color: #d5e1ef;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
-
-
 }
 
 main{
