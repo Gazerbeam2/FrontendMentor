@@ -73,6 +73,7 @@ textarea:not([rows]) {
 
 body{
 
+
 }
 
 main{
@@ -80,10 +81,15 @@ main{
     justify-content: center;
     align-items: center;
     flex-direction: row-reverse;
-    max-width: 22rem;
-    border: 1px solid black
+    max-width: 25rem;
+    border: 1px solid black;
+    border-radius: 10px;
 }
 
 img{
-  object-fit: contain;
+  object-fit: fill;
+}
+
+.attribution{
+  align-self: flex-end;
 }
