@@ -122,8 +122,9 @@ h2{
 
 
 footer{
-  font-size:1.1rem;
-  margin:0 auto;
+   margin: 16px 0;
+  font-size:1.2rem;
+  line-height: 1.2;
 
 }
 
