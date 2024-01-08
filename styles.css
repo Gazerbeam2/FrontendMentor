@@ -129,6 +129,7 @@ button{
   border-radius: 10px;
   display:block;
   padding: 0.5em 4em 0.5em 4em;
+  border: 1px solid black;
 }
 
 .shopping_Cart_Icon{
@@ -142,5 +143,4 @@ img{
 }
 
 footer{
-  margin-top: auto;
 }
