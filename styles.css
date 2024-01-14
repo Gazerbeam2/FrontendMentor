@@ -87,7 +87,7 @@ body{
     align-items: center;
     flex-direction: row-reverse;
     max-width: 30rem;
-    border: 9px solid white;
+    border: 4px solid white;
     border-radius: 10px;
     margin: 0 auto;
 }
@@ -139,7 +139,7 @@ button{
 
 
 img{
-  object-fit: contain;
+  object-fit: cover;
 }
 
 footer{
