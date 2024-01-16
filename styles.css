@@ -84,7 +84,6 @@ body{
 .component_container{
     display:flex;
     justify-content: center;
-    align-items: center;
     flex-direction: row-reverse;
     max-width: 30rem;
     border: 4px solid white;
@@ -139,9 +138,12 @@ button{
 }
 
 
-picture{
+picture,img{
   object-fit: cover;
+  height: 100%;
+
 }
+
 
 footer{
   font-size: 2rem;
