@@ -85,14 +85,11 @@ main{
     max-width: 22rem;
     padding:16px;
     margin: 0 auto;
-
+    border: 5px solid white;
+    background-color: white;
+    border-radius: 20px;
 }
 
-.container{
-  border: 10px solid white;
-  background-color: white;
-  border-radius: 20px;
-}
 
 img{
     border-radius:18px;
