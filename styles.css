@@ -13,14 +13,22 @@ html {
 }
 
 /* Remove default margin in favour of better control in authored CSS */
-body, h1, h2, h3, h4, p,
-figure, blockquote, dl, dd {
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
   margin-block-end: 0;
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
-ul[role='list'],
-ol[role='list'] {
+ul[role="list"],
+ol[role="list"] {
   list-style: none;
 }
 
@@ -31,14 +39,21 @@ body {
 }
 
 /* Set shorter line heights on headings and interactive elements */
-h1, h2, h3, h4,
-button, input, label {
+h1,
+h2,
+h3,
+h4,
+button,
+input,
+label {
   line-height: 1.1;
 }
 
 /* Balance text wrapping on headings */
-h1, h2,
-h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   text-wrap: balance;
 }
 
@@ -56,8 +71,10 @@ picture {
 }
 
 /* Inherit fonts for inputs and buttons */
-input, button,
-textarea, select {
+input,
+button,
+textarea,
+select {
   font: inherit;
 }
 
@@ -71,7 +88,7 @@ textarea:not([rows]) {
   scroll-margin-block: 5ex;
 }
 
-body{
+body {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -79,73 +96,67 @@ body{
   background-color: hsl(30, 38%, 92%);
 }
 
+.component_container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  max-width: 30rem;
 
-
-.component_container{
-    display:flex;
-    justify-content: center;
-    flex-direction: row-reverse;
-    max-width: 30rem;
-    border: 4px solid white;
-    border-radius: 10px;
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
-.component_text_side{
+.component_text_side {
   background-color: hsl(0, 0%, 100%);
-  padding:1.4em;
+  padding: 1.4em;
   margin: 0;
+  border: 4px solid white;
+  border-radius: 0px 10px 10px 0px;
 }
-.component_ribbon_text{
+.component_ribbon_text {
   text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   letter-spacing: 5px;
   font-size: 0.8rem;
 }
 
-
-h2{
+h2 {
   color: hsl(212, 21%, 14%);
   font-size: 1.8rem;
-  font-family: 'Fraunces', serif;;
+  font-family: "Fraunces", serif;
 }
 
-
-p{
-  color: hsl(228, 12%, 48%)
+p {
+  color: hsl(228, 12%, 48%);
 }
 
-.component_prices_span{
+.component_prices_span {
   color: hsl(158, 36%, 37%);
   font-size: 1.5rem;
-  font-family: 'Fraunces', serif;
-  padding: 0.5em 0 ;
-  margin:0.5em;
-
+  font-family: "Fraunces", serif;
+  padding: 0.5em 0;
+  margin: 0.5em;
 }
-button{
-  background-color:  hsl(158, 36%, 37%);
+button {
+  background-color: hsl(158, 36%, 37%);
   color: hsl(0, 0%, 100%);
   border-radius: 10px;
-  display:block;
+  display: block;
   padding: 0.5em 4em 0.5em 4em;
   border: 1px solid black;
 }
 
-.shopping_Cart_Icon{
-  display:inline;
-
+.shopping_Cart_Icon {
+  display: inline;
 }
 
-
-picture,img{
+picture,
+img {
   object-fit: cover;
   height: 100%;
-
+  border-radius: 10px 0px 0px 10px;
 }
 
-
-footer{
+footer {
   font-size: 2rem;
   margin: 16px auto;
 }
