@@ -160,3 +160,6 @@ footer {
   font-size: 2rem;
   margin: 16px auto;
 }
+
+@media screen(min-width: 40rem) {
+}
