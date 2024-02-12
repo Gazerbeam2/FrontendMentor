@@ -161,5 +161,5 @@ footer {
   margin: 16px auto;
 }
 
-@media screen(min-width: 40rem) {
+@media screen and (min-width: 40rem) {
 }
