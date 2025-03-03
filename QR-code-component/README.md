@@ -24,7 +24,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Links
 
 - Solution URL: (https://www.frontendmentor.io/solutions/qrcodecomponent-solution-IUTkSecFuX)
-- Live Site URL: (https://qr-code-component-sandy-six.vercel.app/)
+- Live Site URL: (https://frontend-mentor-five-liart.vercel.app)
 
 ## My process
 
