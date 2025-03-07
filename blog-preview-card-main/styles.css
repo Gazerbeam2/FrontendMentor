@@ -101,14 +101,19 @@ main {
   max-width: 22rem;
   padding: 20px;
   background-color: hsl(0, 0%, 100%);
-  border: 2px solid black;
-  border-radius: 12px;
+  border: 1px solid black;
+  border-radius: 20px;
   margin: auto;
-  box-shadow: 10px 5px black;
+  box-shadow: 10px 10px black;
 }
 
 img {
   border-radius: 10px;
+}
+
+.publishing {
+  font-family: "Figtree", sans-serif;
+  font-size: 0.9rem;
 }
 
 .category_div {
@@ -118,6 +123,7 @@ img {
   text-align: center;
   color: hsl(0, 0%, 7%);
   font-weight: 800;
+  margin: 10px, auto;
 }
 
 h1 {
@@ -125,18 +131,22 @@ h1 {
   font-weight: 950;
   color: hsl(0, 0%, 7%);
   font-size: 1.4rem;
-  margin: 5px;
+  margin: 10px, auto;
   line-height: 1.5;
 }
 
 .card_description_text {
   font-size: 1rem;
   color: hsl(0, 0%, 42%);
-  margin: 5px;
+  margin: 10px, auto;
+  font-weight: 400;
 }
 
 .Author_Name_Div {
   display: flex;
+  margin: 5px, auto;
+  font-family: "Figtree", sans-serif;
+  font-weight: 950;
 }
 
 footer {
