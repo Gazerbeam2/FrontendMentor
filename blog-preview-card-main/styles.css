@@ -98,8 +98,46 @@ body {
 }
 
 main {
+  max-width: 22rem;
+  padding: 20px;
+  background-color: hsl(0, 0%, 100%);
+  border: 2px solid black;
+  border-radius: 12px;
+  margin: auto;
+  box-shadow: 10px 5px black;
+}
+
+img {
+  border-radius: 10px;
+}
+
+.category_div {
+  background-color: hsl(47, 88%, 63%);
+  border-radius: 2px;
+  max-width: 5rem;
+  text-align: center;
+  color: hsl(0, 0%, 7%);
+  font-weight: 800;
+}
+
+h1 {
+  font-family: "Figtree", sans-serif;
+  font-weight: 950;
+  color: hsl(0, 0%, 7%);
+  font-size: 1.4rem;
+  margin: 5px;
+  line-height: 1.5;
+}
+
+.card_description_text {
+  font-size: 1rem;
+  color: hsl(0, 0%, 42%);
+  margin: 5px;
 }
 
 .Author_Name_Div {
   display: flex;
+}
+
+footer {
 }
