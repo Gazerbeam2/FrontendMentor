@@ -95,14 +95,15 @@ body {
   align-items: center;
   background-color: hsl(30, 38%, 92%);
 }
-
+main {
+  margin: auto;
+}
 .component_container {
-  max-width: 25rem;
+  max-width: 22rem;
   display: flex;
   flex-direction: column-reverse;
   justify-content: center;
   align-items: center;
-  margin: auto;
 }
 @media only screen and (min-width: 30rem) {
   .component_container {
@@ -111,13 +112,16 @@ body {
     max-width: 30rem;
     margin: 0 auto;
   }
+  .component_text_side {
+    border-radius: 0px 10px 10px 0px;
+  }
 }
 .component_text_side {
   background-color: hsl(0, 0%, 100%);
   padding: 1.4em;
   margin: 0;
   border: 4px solid white;
-  border-radius: 0px 10px 10px 0px;
+  border-radius: 0px 0px 10px 10px;
 }
 .component_ribbon_text {
   text-transform: uppercase;
@@ -160,13 +164,10 @@ picture,
 img {
   object-fit: cover;
   height: 100%;
-  border-radius: 10px 0px 0px 10px;
+  border-radius: 10px 10px 0px 0px;
 }
 
 footer {
   font-size: 2rem;
   margin: 16px auto;
-}
-
-@media screen and (min-width: 40rem) {
 }
